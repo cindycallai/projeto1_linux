@@ -18,9 +18,11 @@ echo "Criando Usuários..."
 useradd carlos -m -s "Carlos Silva" -s /bin/bash  -p $(openssl passwd -crypt Senha) -G GRP_ADM
 useradd maria -m -s "Maria Silva" -s /bin/bash -p $(openssl passwd -crypt Senha) -G GRP_ADM
 useradd joao -m -s "João Silva" -s /bin/bash -p $(openssl passwd -crypt Senha) -G GRP_ADM
+
 useradd debora -m -s "Debora Silva" -s /bin/bash -p $(openssl passwd -crypt Senha) -G GRP_VEN
 useradd sebastiana -m -s "Sebastiana Silva" -s /bin/bash -p $(openssl passwd -crypt Senha) -G GRP_VEN
 useradd roberto -m -s "Roberto Silva" -s /bin/bash -p $(openssl passwd -crypt Senha) -G GRP_VEN
+
 useradd josefina -m -s "Josefina Silva" -s /bin/bash -p $(openssl passwd -crypt Senha) -G GRP_SEC
 useradd amanda -m -s "Amanda Silva" -s /bin/bash -p $(openssl passwd -crypt Senha) -G GRP_SEC
 useradd rogerio -m -s "Rogério Silva" -s /bin/bash -p $(openssl passwd -crypt Senha) -G GRP_SEC
